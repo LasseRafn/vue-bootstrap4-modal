@@ -10,8 +10,8 @@ Vue Bootstrap 4 Modal Component
   </div>
   
   <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" @click="close">Cancel</button>
-    <button type="button" class="btn btn-primary" @click="submit">Hello Sir</button>
+    <button type="button" class="btn btn-secondary" @click="show_modal = false">Cancel</button>
+    <button type="button" class="btn btn-primary" @click="alert('Hello!')">Hello Sir</button>
   </div>
 </modal>
 ```
